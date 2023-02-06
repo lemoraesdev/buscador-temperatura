@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Previsão do tempo</title>
+</head>
+<body>
+        <div class="container">
+            <div class="inputcontainer">
+                <input type="text" class="input" placeholder="Digite o nome da cidade">
+                <button onclick="clickButton()">
+                    <img class="search" src="https://www.svgrepo.com/show/488200/find.svg">
+                </button>
+            </div>
+
+            <div class="content">
+                <h2 class="city">Tempo em Rio de Janeiro</h2>
+                <p class="temp">28°C</p>
+
+                <div class="contentdescription">
+                    <img class="icone" src="https://openweathermap.org/img/wn/04n.png">
+                    <p class="description">Nuvens Dispersas</p>
+                </div>
+    
+                <p class="moisture">Umidade: 70%</p>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+</body>
+</html>
